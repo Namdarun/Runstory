@@ -1,0 +1,17 @@
+.alarm-all {
+  border: 1px solid;
+  border-color: hsl(0, 4%, 73%);  
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top : 90px;
+  width: 90%;
+}
+
+.alarm-content {
+  border: 1px solid;
+  border-color: hsl(0, 4%, 73%);  
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top : 15px;
+  width: 90%;
+}

@@ -1,0 +1,15 @@
+.follow-btn {
+    font-size: 15px;
+    color: #6A6A6A;
+    background-color: #CBD9E7;
+    display: inline-block;
+    padding: 0 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.user-search-result {
+    height: 60vh;
+    overflow: scroll;
+}

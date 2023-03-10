@@ -1,0 +1,39 @@
+.save-btn {
+    margin-right: 2.5%;
+    margin-top: 2%;
+    color: #6A6A6A;
+    background-color:#CBD9E7;
+    text-align: center;
+    display: inline-block;
+    padding: 2px 10px;
+    float: right;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 13px;
+}
+
+.del-btn {
+    margin-right: 2.5%;
+    margin-top: 2%;
+    color: #6A6A6A;
+    background-color:#EEB6B6;
+    text-align: center;
+    display: inline-block;
+    padding: 2px 10px;
+    float: right;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 13px;
+}
+
+.search-btn {
+    color: #6A6A6A;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 13px;
+}

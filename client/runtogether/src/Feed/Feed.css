@@ -1,0 +1,45 @@
+.info {
+    margin: 0 auto;
+    /* margin-left: 3%; */
+    /* background-color: aqua; */
+    width: 77%;
+}
+
+.follow-btn {
+    margin: 4%;
+    color: #6A6A6A;
+    background-color:#CBD9E7;
+    text-align: center;
+    display: inline-block;
+    padding: 4px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.unfollow-btn {
+    margin: 4%;
+    color: #6A6A6A;
+    background-color:#EEB6B6;
+    text-align: center;
+    display: inline-block;
+    padding: 4px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.chat-btn {
+    margin: 4%;
+    color: #6A6A6A;
+    background-color:#CBD9E7;
+    text-align: center;
+    display: inline-block;
+    padding: 4px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+}

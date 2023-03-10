@@ -1,0 +1,21 @@
+.setting-title{
+  margin-top: 60px;
+  margin-left: 3%;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.setting-detail{
+  margin-top: 150px;
+  text-align: center;
+  font-size: 30px;
+  /* font-weight: bold; */
+  align-items: center;
+}
+
+.setting-intro-title {
+  margin-top: 60px;
+  margin-left: 3%;
+  font-weight: bold;
+  font-size: 16px;
+}

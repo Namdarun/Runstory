@@ -1,0 +1,13 @@
+.recruit-crew-header {
+    display: flex;
+    margin-top: 60px;
+    width: 50%;
+    margin-left: 3%;
+}
+
+.recruit-crew-title {
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #6A6A6A;
+}

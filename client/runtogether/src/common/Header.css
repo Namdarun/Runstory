@@ -1,0 +1,45 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    height: 50px;
+    color: #616161;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    line-height: 50px;
+    font-size: 27px;
+    border-bottom: 1px solid #D9D9D9;
+    z-index: 10000;
+}
+
+.left-header {
+    margin-left: 2%;
+    margin-right: 13%;
+    font-size: 30px;
+}
+
+.right-header {
+    display: flex;
+    margin-right: 10%;
+}
+
+.logo{
+    /* padding-bottom:x; */
+    margin-top:3px;
+    font-size: 35px;
+    color: black;
+    width:100%;
+    height:96%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.notice {
+    margin-right: 20%;
+}
+
+.chat {
+    margin-left: 20%;
+}

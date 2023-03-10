@@ -1,0 +1,29 @@
+.footer {
+    position: fixed;
+    bottom: -5px;
+    width: 100%;
+    background-color: #ffffff;
+    height: 50px;
+    color: #616161;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 50px;
+    font-size: 27px;
+    border-top: 1px solid #d9d9d9;
+    z-index: 10000;
+}
+
+.post {
+    font-size: 32px;
+}
+
+.collapse {
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 90%;
+}

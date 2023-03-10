@@ -1,0 +1,22 @@
+.upload-box {
+    width: 90%;
+    background-color: rgba(230, 226, 226, 0.7);
+    height: 6vh;
+    margin: 0 auto;
+    /* margin-top: 5px; */
+    text-align: center;
+    line-height: 7vh;
+    border-radius: 10px;
+    border: 2px dashed #616161;
+    font-size: 30px;
+}
+
+.preview-box {
+    width: 90%;
+    height: 40vh;
+    margin: 0 auto;
+    margin-top: 5px;
+    object-fit: cover;
+    line-height: 40vh;
+    border-radius: 10px;
+}

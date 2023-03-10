@@ -1,0 +1,15 @@
+.follow-header {
+  display: flex;
+  margin-top: 60px;
+}
+
+.follow-header-left {
+  width: 50%;
+  margin-left: 3%;
+}
+
+.follow-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6A6A6A;
+}

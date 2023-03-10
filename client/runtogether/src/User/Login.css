@@ -1,0 +1,98 @@
+.LoginSection {
+    margin : auto;
+    margin-top: 40%;
+    /* border-radius: 10%; */
+    max-width: 420px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: rgba(132, 125, 125, 0.4);
+  }
+
+.LoginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+
+.LoginInput{
+    font-size: 20px;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    margin-top : 5px;
+}
+
+.LoginLabel{
+    margin-top: 1rem;
+}
+
+.Button {
+  justify-content: center;
+  font-size: 30px;
+  border-radius: 20%;
+  border-color: black;
+  margin-top: 10px  
+}
+
+.LoginButton {
+  justify-content: center;
+  font-size: 30px;
+  border-radius: 20%;
+  border-color: black;
+  margin-top: 10px
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}
+
+input::placeholder {
+    font-size: 15px;
+    font-style: italic;
+  }
+  

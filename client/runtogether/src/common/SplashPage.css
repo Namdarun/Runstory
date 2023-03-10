@@ -1,0 +1,11 @@
+.logo-main {
+  justify-content: center;
+  width: 194px;
+  height: 172px;
+  opacity: 1;
+  transition: 5s opacity ease-out;
+}
+
+.logo-main-hide {
+  opacity: 0;
+}

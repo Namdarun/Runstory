@@ -1,0 +1,15 @@
+.search-input {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* background-color: aqua; */
+    line-height: 100%;
+}
+
+.underline {
+    border-left-width:0;
+    border-right-width:0;
+    border-top-width:0;
+    border-bottom-width:1;
+}

@@ -1,0 +1,29 @@
+/* .chat-from-other {
+    margin-top: 10px;
+} */
+
+.chat-from-me {
+    /* margin-top: 10px; */
+    text-align: right;
+}
+
+.other-info {
+    display: flex;
+}
+
+.my-info {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.other {
+    height: 30px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.me {
+    height: 30px;
+    text-align: right;
+    margin-right: 5px;
+}

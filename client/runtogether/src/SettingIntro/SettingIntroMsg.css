@@ -1,0 +1,11 @@
+.settingintro-header {
+  display: flex;
+  margin-top: 60px;
+}
+
+.settingintro-title {
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #6A6A6A;
+}

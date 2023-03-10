@@ -1,0 +1,127 @@
+/* .upload-box {
+    width: 90%;
+    background-color: transparent;
+    height: 40%;
+    margin: 0 auto;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 10px;
+    border: 2px dashed #616161;
+    font-size: 30px;
+} */
+
+.content-and-range {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5%;
+    font-size: 12px;
+    font-weight: bold;
+    color: #616161;
+}
+
+/* .title {
+    margin-left: 5%;
+    width: 20%;
+} */
+
+.range {
+    margin-right: 5%;
+    text-align: right;
+    width: 80%;
+}
+
+.radio-range {
+    font-size: 8px;
+}
+
+/* .title-input {
+    margin-top: 3px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 1px solid #616161;
+    width: 50%;
+    font-size: 12px;
+} */
+
+.content {
+    width: 20%;
+    /* margin-top: 10px; */
+    margin-left: 5%;
+    font-size: 12px;
+    font-weight: bold;
+    color: #616161;
+}
+
+.content-input {
+    margin-top: 3%;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 1px solid #616161;
+    width: 90%;
+    font-size: 12px;
+    resize: none;
+}
+
+.submit-and-cancel {
+    margin-top: 3%;
+    margin-right: 5%;
+    display: flex;
+    height: 20px;
+    text-align: right;
+    justify-content: right;
+}
+
+.submit-btn {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #6A6A6A;
+    background-color: #D9D9D9;
+    display: inline-block;
+    padding: 0 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 20px;
+}
+
+.cancel-btn {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #6A6A6A;
+    background-color: #EEB6B6;
+    display: inline-block;
+    padding: 0 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 20px;
+}
+
+/* .location {
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 12px;
+    font-weight: bold;
+    color: #616161;   
+}
+
+.location-input {
+    margin-top: 3px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 1px solid #616161;
+    width: 90%;
+    font-size: 12px;
+}
+
+.popup {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    top: 200px;
+}
+
+.search-zip-btn {
+    margin-left: 5%;
+} */

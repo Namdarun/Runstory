@@ -1,0 +1,111 @@
+buildscript {
+    ext {
+        queryDslVersion = "5.0.0"
+    }
+}
+
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '2.7.7'
+    id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+    id "com.ewerk.gradle.plugins.querydsl" version "1.0.10"
+}
+
+group = 'com.runstory'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // spring dependencies
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-web-services'
+
+    // querydsl
+    implementation "com.querydsl:querydsl-jpa:${queryDslVersion}"
+    implementation "com.querydsl:querydsl-apt:${queryDslVersion}"
+
+    //websocket
+    implementation 'org.springframework.boot:spring-boot-starter-websocket'
+    implementation 'org.webjars:sockjs-client:1.1.2'
+    implementation 'org.webjars:stomp-websocket:2.3.3-1'
+
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.14.1'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-hibernate5'
+
+    //lombok
+    compileOnly 'org.projectlombok:lombok'
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    runtimeOnly 'com.mysql:mysql-connector-j'
+    annotationProcessor 'org.projectlombok:lombok'
+
+    // Swagger
+    implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '3.0.0'
+    implementation group: 'io.springfox', name: 'springfox-swagger2', version: '3.0.0'
+    implementation group: 'io.springfox', name: 'springfox-boot-starter', version: '3.0.0'
+
+    // Email 인증
+    implementation 'org.springframework.boot:spring-boot-starter-mail'
+
+    // Spring Security
+    implementation "org.springframework.boot:spring-boot-starter-security"
+
+    //JWT
+    implementation("com.auth0:java-jwt:3.10.3")
+
+
+    implementation("com.google.guava:guava:29.0-jre")
+    annotationProcessor("com.google.guava:guava:29.0-jre")
+
+    // JUnit5
+    testImplementation("org.junit.platform:junit-platform-launcher:1.5.2")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.5.2")
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // WebSocket
+    implementation 'org.springframework.boot:spring-boot-starter-websocket'
+
+    // sockjs
+    implementation 'org.webjars:sockjs-client:1.5.1'
+    // stomp
+    implementation 'org.webjars:stomp-websocket:2.3.4'
+    // gson
+    implementation 'com.google.code.gson:gson:2.9.0'
+
+    //redis
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+}
+
+//querydsl
+def querydslDir = "$buildDir/generated/querydsl"
+
+querydsl {
+    jpa = true
+    querydslSourcesDir = querydslDir
+}
+
+sourceSets {
+    main.java.srcDir querydslDir
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+    querydsl.extendsFrom compileClasspath
+}
+
+compileQuerydsl {
+    options.annotationProcessorPath = configurations.querydsl
+}

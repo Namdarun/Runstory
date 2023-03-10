@@ -1,0 +1,10 @@
+.postmodal {
+  height: 300px!important;
+  width: 300px!important;
+  font-size: 10px;
+  -ms-overflow-style: none;
+}
+
+.postmodal::-webkit-scrollbar{
+  display:none;
+}

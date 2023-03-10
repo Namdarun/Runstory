@@ -1,0 +1,27 @@
+.profile-header {
+  width: 105%;
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+.profile-header-left {
+  width: 50%;
+  margin-left: 3%;
+  font-size: 20px;
+}
+
+.profile-header-right {
+  width: 50%;
+  margin-right: 3%;
+  text-align: right;
+  line-height: 100%;
+  border-right-width: 20px;
+}
+
+.profile-title {
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #6A6A6A;
+}

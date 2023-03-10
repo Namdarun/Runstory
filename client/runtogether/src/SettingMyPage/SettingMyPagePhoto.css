@@ -1,0 +1,17 @@
+.product-title {
+  text-align:center;
+  display:table;
+  border:1px solid #cecece;
+  width:280px;
+  height:250px;
+}
+
+.product-img-div {
+  display:table-cell;
+  vertical-align:middle;
+}
+
+.product-img {
+  max-width:180px;
+  max-height:180px;
+}
